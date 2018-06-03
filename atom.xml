@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>爱微风区块链</title>
+  <title>爱微风|区块链</title>
   
   <subtitle>公有链-联盟链-智能合约</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.aiweifeng.com/"/>
-  <updated>2018-06-02T18:16:56.690Z</updated>
+  <updated>2018-06-03T09:47:56.153Z</updated>
   <id>http://www.aiweifeng.com/</id>
   
   <author>
@@ -21,12 +21,29 @@
     <link href="http://www.aiweifeng.com/2018/06/03/%E6%AF%94%E7%89%B9%E5%B8%81%E5%A6%82%E4%BD%95%E6%8C%96%E7%9F%BF%EF%BC%88%E6%8C%96%E7%9F%BF%E5%8E%9F%E7%90%86%EF%BC%89-%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
     <id>http://www.aiweifeng.com/2018/06/03/比特币如何挖矿（挖矿原理）-工作量证明/</id>
     <published>2018-06-02T18:14:10.000Z</published>
-    <updated>2018-06-02T18:16:56.690Z</updated>
+    <updated>2018-06-03T09:47:56.153Z</updated>
+    
+    <content type="html"><![CDATA[<p>在区块链记账原理 一篇，我们了解到记账是把交易记录、交易时间、账本序号、上一个Hash值等信息计算Hash打包的过程。<br>我们知道所有的计算和存贮是需要消耗计算机资源的，既然要付出成本，那节点为什么还要参与记账呢？在中本聪（比特币之父）的设计里，完成记账的节点可以获得系统给与的一定数量的比特币奖励，这个奖励的过程也就是比特币的发行过程，因此大家形象的把记账称为“挖矿”，本文将详细讨论这个过程。</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;在区块链记账原理 一篇，我们了解到记账是把交易记录、交易时间、账本序号、上一个Hash值等信息计算Hash打包的过程。&lt;br&gt;我们知道所有的计算和存贮是需要消耗计算机资源的，既然要付出成本，那节点为什么还要参与记账呢？在中本聪（比特币之父）的设计里，完成记账的节点可以获得系
+      
+    
     </summary>
     
+      <category term="比特币" scheme="http://www.aiweifeng.com/categories/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+    
+    
+      <category term="比特币" scheme="http://www.aiweifeng.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+    
+      <category term="挖矿" scheme="http://www.aiweifeng.com/tags/%E6%8C%96%E7%9F%BF/"/>
+    
+      <category term="工作量证明" scheme="http://www.aiweifeng.com/tags/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
+    
+      <category term="共识机制" scheme="http://www.aiweifeng.com/tags/%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6/"/>
     
   </entry>
   
