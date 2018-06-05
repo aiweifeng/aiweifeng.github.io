@@ -47,4 +47,32 @@
     
   </entry>
   
+  <entry>
+    <title>如何学习区块链</title>
+    <link href="http://www.aiweifeng.com/2017/12/10/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    <id>http://www.aiweifeng.com/2017/12/10/开始学习区块链/</id>
+    <published>2017-12-09T18:14:10.000Z</published>
+    <updated>2018-06-05T09:58:31.840Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="为啥选择区块链"><a href="#为啥选择区块链" class="headerlink" title="为啥选择区块链"></a>为啥选择区块链</h1><p>区块链行业最近热门程度相信大家已经不用我过多介绍了，请看下图(智联招聘截图)：</p><p><img src="https://www.aiweifeng.com/imgs/01.jpg" alt="image"></p><p>区块链涉及的技术众多，对开发人员的综合要求非常高，能给到大家的建议就是多读书，读代码，写代码。我个人目前也是不断学习中，所以才整理了这个blog也是为了见证自己的成长。</p><h1 id="推荐入门必看"><a href="#推荐入门必看" class="headerlink" title="推荐入门必看"></a>推荐入门必看</h1><ul><li><a href="http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system/" target="_blank" rel="noopener">比特币白皮书：一种点对点的电子现金系统</a></li><li><a href="https://note.youdao.com/" target="_blank" rel="noopener">以太坊白皮书：代智能合约去中心化应用平台</a></li><li><a href="https://www.aiweifeng.com/pdf/blockchain_guide.pdf">区块链技术指南（PDF）</a></li><li><a href="https://learnblockchain.cn/" target="_blank" rel="noopener">深入浅出区块链</a></li><li><a href="https://jeiwan.cc/" target="_blank" rel="noopener">Ivan Kuznetsov’s blog</a></li><li><a href="https://github.com/ethereum" target="_blank" rel="noopener">以太坊官网</a></li><li><a href="https://bitcoin.org/en/" target="_blank" rel="noopener">比特币官网</a></li><li><a href="https://github.com/hyperledger/hyperledger" target="_blank" rel="noopener">hyperledger超级账本</a></li><li><a href="https://github.com/btcsuite" target="_blank" rel="noopener">Bitcoin in Go- golang开发的比特币程序</a></li></ul><blockquote><p>文章来源：<a href="https://learnblockchain.cn/" target="_blank" rel="noopener">深入浅出区块链</a></p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      本文主要给大家介绍为什么我们要学习区块链，以及如何学习区块链，学习区块链必读的基本书。
+    
+    </summary>
+    
+      <category term="其他" scheme="http://www.aiweifeng.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="比特币" scheme="http://www.aiweifeng.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+    
+      <category term="区块链教程" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="区块链学习" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="区块链资源" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
 </feed>
