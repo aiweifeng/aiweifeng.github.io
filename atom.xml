@@ -107,4 +107,34 @@
     
   </entry>
   
+  <entry>
+    <title>solidity实现最简单的代币token</title>
+    <link href="http://www.aiweifeng.com/2017/10/10/%E5%AE%9E%E7%8E%B0%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E4%BB%A3%E5%B8%81token/"/>
+    <id>http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/</id>
+    <published>2017-10-09T18:14:10.000Z</published>
+    <updated>2018-07-12T03:29:39.732Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="remix"><a href="#remix" class="headerlink" title="remix"></a>remix</h1><p>IDE地址：<a href="http://remix.ethereum.org" target="_blank" rel="noopener">http://remix.ethereum.org</a></p><h1 id="第一个合约"><a href="#第一个合约" class="headerlink" title="第一个合约"></a>第一个合约</h1><pre><code>pragma solidity ^0.4.20;contract SimpleToken{//记录账本mapping(address =&gt; uint256)public balanceOf;//构造方法，将全部发行量给第一个账本constructor(uint256 initialSupply){    balanceOf[msg.sender] = initialSupply;}//交易函数function transfer(address _to,uint256 _value)public{    //检验余额是否够本次交易    require(balanceOf[msg.sender] &gt;= _value);    //检验目标账本是否会溢出    require(balanceOf[_to] + _value &gt;= balanceOf[_to]);    balanceOf[msg.sender] -= _value;    balanceOf[_to] += _value;}</code></pre><p>}</p>]]></content>
+    
+    <summary type="html">
+    
+      你的第一个智能合约，最简单的代币发行。
+    
+    </summary>
+    
+      <category term="以太坊" scheme="http://www.aiweifeng.com/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
+    
+    
+      <category term="remix" scheme="http://www.aiweifeng.com/tags/remix/"/>
+    
+      <category term="token" scheme="http://www.aiweifeng.com/tags/token/"/>
+    
+      <category term="代币发行" scheme="http://www.aiweifeng.com/tags/%E4%BB%A3%E5%B8%81%E5%8F%91%E8%A1%8C/"/>
+    
+      <category term="智能合约" scheme="http://www.aiweifeng.com/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/"/>
+    
+      <category term="solidity" scheme="http://www.aiweifeng.com/tags/solidity/"/>
+    
+  </entry>
+  
 </feed>

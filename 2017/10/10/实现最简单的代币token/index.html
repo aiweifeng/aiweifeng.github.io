@@ -112,14 +112,18 @@
 
 
 
-  <meta name="keywords" content="区块链,公有链,联盟链,私有链,智能合约,Dapp,代币发行,ICO,交易所,golang,区块链技术,韩晓东,爱微风,区块链视频,区块链教程,以太坊,solidity,比特币">
-<meta property="og:type" content="website">
-<meta property="og:title" content="爱微风|区块链">
-<meta property="og:url" content="http://www.aiweifeng.com/archives/2017/index.html">
+  <meta name="description" content="你的第一个智能合约，最简单的代币发行。">
+<meta name="keywords" content="remix,token,代币发行,智能合约,solidity">
+<meta property="og:type" content="article">
+<meta property="og:title" content="solidity实现最简单的代币token">
+<meta property="og:url" content="http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/index.html">
 <meta property="og:site_name" content="爱微风|区块链">
+<meta property="og:description" content="你的第一个智能合约，最简单的代币发行。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-07-12T03:29:39.732Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="爱微风|区块链">
+<meta name="twitter:title" content="solidity实现最简单的代币token">
+<meta name="twitter:description" content="你的第一个智能合约，最简单的代币发行。">
 
 
 
@@ -128,7 +132,7 @@
 
 
 
-  <link rel="canonical" href="http://www.aiweifeng.com/archives/2017/"/>
+  <link rel="canonical" href="http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/"/>
 
 
 
@@ -138,7 +142,7 @@
   };
 </script>
 
-  <title>归档 | 爱微风|区块链</title>
+  <title>solidity实现最简单的代币token | 爱微风|区块链</title>
   
 
 
@@ -185,7 +189,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -283,140 +287,332 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="韩晓东">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="爱微风|区块链">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">solidity实现最简单的代币token
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-10-10 02:14:10" itemprop="dateCreated datePublished" datetime="2017-10-10T02:14:10+08:00">2017-10-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-07-12 11:29:39" itemprop="dateModified" datetime="2018-07-12T11:29:39+08:00">2018-07-12</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/以太坊/" itemprop="url" rel="index"><span itemprop="name">以太坊</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+              <div class="post-description">你的第一个智能合约，最简单的代币发行。</div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-      <span class="archive-page-counter">
+      
+
+      
+        <h1 id="remix"><a href="#remix" class="headerlink" title="remix"></a>remix</h1><p>IDE地址：<a href="http://remix.ethereum.org" target="_blank" rel="noopener">http://remix.ethereum.org</a></p>
+<h1 id="第一个合约"><a href="#第一个合约" class="headerlink" title="第一个合约"></a>第一个合约</h1><pre><code>pragma solidity ^0.4.20;
+
+contract SimpleToken{
+//记录账本
+mapping(address =&gt; uint256)public balanceOf;
+//构造方法，将全部发行量给第一个账本
+constructor(uint256 initialSupply){
+    balanceOf[msg.sender] = initialSupply;
+}
+//交易函数
+function transfer(address _to,uint256 _value)public{
+    //检验余额是否够本次交易
+    require(balanceOf[msg.sender] &gt;= _value);
+    //检验目标账本是否会溢出
+    require(balanceOf[_to] + _value &gt;= balanceOf[_to]);
+
+    balanceOf[msg.sender] -= _value;
+    balanceOf[_to] += _value;
+}
+</code></pre><p>}</p>
+
+      
+    </div>
+
+    
+      
+
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>联系我</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/uploads/weixin.jpg" alt="韩晓东 ."/>
+        <p>.</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>韩晓东</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/" title="solidity实现最简单的代币token">http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>除个别文章外，本blog均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/remix/" rel="tag"># remix</a>
+          
+            <a href="/tags/token/" rel="tag"># token</a>
+          
+            <a href="/tags/代币发行/" rel="tag"># 代币发行</a>
+          
+            <a href="/tags/智能合约/" rel="tag"># 智能合约</a>
+          
+            <a href="/tags/solidity/" rel="tag"># solidity</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
         
+
         
+
         
           
-        
-        嗯..! 目前共计 4 篇日志。 继续努力。
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h2 class="archive-year" id="archive-year-2017">2017</h2>
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
           </div>
         
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/12/10/开始学习区块链/" itemprop="url">
-              
-                <span itemprop="name">如何学习区块链</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-12-10T02:14:10+08:00"
-              content="2017-12-10" >
-          12-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+        </div>
+      
       
 
-        
-        
-        
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
 
-        
-        
+          <span class="post-nav-divider"></span>
 
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/10/10/实现最简单的代币token/" itemprop="url">
-              
-                <span itemprop="name">solidity实现最简单的代币token</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-10T02:14:10+08:00"
-              content="2017-10-10" >
-          10-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/12/10/开始学习区块链/" rel="prev" title="如何学习区块链">
+                如何学习区块链 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
-    </div>
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+        
+  <div class="bdsharebuttonbox">
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common": {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": ""
+      },
+      "share": {
+        "bdSize": "16",
+        "bdStyle": "0"
+      },
+      "image": {
+        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
+        "viewText": "分享到：",
+        "viewSize": "16"
+      }
+    }
+  </script>
+
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -437,8 +633,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -599,6 +804,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#remix"><span class="nav-number">1.</span> <span class="nav-text">remix</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第一个合约"><span class="nav-number">2.</span> <span class="nav-text">第一个合约</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -740,6 +961,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
