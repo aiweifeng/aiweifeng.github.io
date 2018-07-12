@@ -5,9 +5,9 @@
   <subtitle>公有链-联盟链-智能合约</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.aiweifeng.com/"/>
+  <link href="https://aiweifeng.github.io/"/>
   <updated>2018-06-13T04:24:34.285Z</updated>
-  <id>http://www.aiweifeng.com/</id>
+  <id>https://aiweifeng.github.io/</id>
   
   <author>
     <name>韩晓东</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>承载规模化商用 Dapp 运行的公链平台-True Chain</title>
-    <link href="http://www.aiweifeng.com/2018/06/13/%E6%89%BF%E8%BD%BD%E8%A7%84%E6%A8%A1%E5%8C%96%E5%95%86%E7%94%A8%20Dapp%20%E8%BF%90%E8%A1%8C%E7%9A%84%E5%85%AC%E9%93%BE%E5%B9%B3%E5%8F%B0-True%20Chain/"/>
-    <id>http://www.aiweifeng.com/2018/06/13/承载规模化商用 Dapp 运行的公链平台-True Chain/</id>
+    <link href="https://aiweifeng.github.io/2018/06/13/%E6%89%BF%E8%BD%BD%E8%A7%84%E6%A8%A1%E5%8C%96%E5%95%86%E7%94%A8%20Dapp%20%E8%BF%90%E8%A1%8C%E7%9A%84%E5%85%AC%E9%93%BE%E5%B9%B3%E5%8F%B0-True%20Chain/"/>
+    <id>https://aiweifeng.github.io/2018/06/13/承载规模化商用 Dapp 运行的公链平台-True Chain/</id>
     <published>2018-06-13T10:14:10.000Z</published>
     <updated>2018-06-13T04:24:34.285Z</updated>
     
@@ -31,27 +31,27 @@
     
     </summary>
     
-      <category term="TrueChain" scheme="http://www.aiweifeng.com/categories/TrueChain/"/>
+      <category term="TrueChain" scheme="https://aiweifeng.github.io/categories/TrueChain/"/>
     
     
-      <category term="比特币" scheme="http://www.aiweifeng.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https://aiweifeng.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
-      <category term="区块链教程" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B/"/>
+      <category term="区块链教程" scheme="https://aiweifeng.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B/"/>
     
-      <category term="区块链学习" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AD%A6%E4%B9%A0/"/>
+      <category term="区块链学习" scheme="https://aiweifeng.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="公链" scheme="http://www.aiweifeng.com/tags/%E5%85%AC%E9%93%BE/"/>
+      <category term="公链" scheme="https://aiweifeng.github.io/tags/%E5%85%AC%E9%93%BE/"/>
     
-      <category term="初链" scheme="http://www.aiweifeng.com/tags/%E5%88%9D%E9%93%BE/"/>
+      <category term="初链" scheme="https://aiweifeng.github.io/tags/%E5%88%9D%E9%93%BE/"/>
     
-      <category term="True Chain" scheme="http://www.aiweifeng.com/tags/True-Chain/"/>
+      <category term="True Chain" scheme="https://aiweifeng.github.io/tags/True-Chain/"/>
     
   </entry>
   
   <entry>
     <title>比特币如何挖矿（挖矿原理）-工作量证明</title>
-    <link href="http://www.aiweifeng.com/2018/06/03/%E6%AF%94%E7%89%B9%E5%B8%81%E5%A6%82%E4%BD%95%E6%8C%96%E7%9F%BF%EF%BC%88%E6%8C%96%E7%9F%BF%E5%8E%9F%E7%90%86%EF%BC%89-%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
-    <id>http://www.aiweifeng.com/2018/06/03/比特币如何挖矿（挖矿原理）-工作量证明/</id>
+    <link href="https://aiweifeng.github.io/2018/06/03/%E6%AF%94%E7%89%B9%E5%B8%81%E5%A6%82%E4%BD%95%E6%8C%96%E7%9F%BF%EF%BC%88%E6%8C%96%E7%9F%BF%E5%8E%9F%E7%90%86%EF%BC%89-%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
+    <id>https://aiweifeng.github.io/2018/06/03/比特币如何挖矿（挖矿原理）-工作量证明/</id>
     <published>2018-06-02T18:14:10.000Z</published>
     <updated>2018-06-03T09:47:56.153Z</updated>
     
@@ -66,23 +66,23 @@
     
     </summary>
     
-      <category term="比特币" scheme="http://www.aiweifeng.com/categories/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https://aiweifeng.github.io/categories/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
     
-      <category term="比特币" scheme="http://www.aiweifeng.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https://aiweifeng.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
-      <category term="挖矿" scheme="http://www.aiweifeng.com/tags/%E6%8C%96%E7%9F%BF/"/>
+      <category term="挖矿" scheme="https://aiweifeng.github.io/tags/%E6%8C%96%E7%9F%BF/"/>
     
-      <category term="工作量证明" scheme="http://www.aiweifeng.com/tags/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
+      <category term="工作量证明" scheme="https://aiweifeng.github.io/tags/%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E/"/>
     
-      <category term="共识机制" scheme="http://www.aiweifeng.com/tags/%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6/"/>
+      <category term="共识机制" scheme="https://aiweifeng.github.io/tags/%E5%85%B1%E8%AF%86%E6%9C%BA%E5%88%B6/"/>
     
   </entry>
   
   <entry>
     <title>如何学习区块链</title>
-    <link href="http://www.aiweifeng.com/2017/12/10/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    <id>http://www.aiweifeng.com/2017/12/10/开始学习区块链/</id>
+    <link href="https://aiweifeng.github.io/2017/12/10/%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    <id>https://aiweifeng.github.io/2017/12/10/开始学习区块链/</id>
     <published>2017-12-09T18:14:10.000Z</published>
     <updated>2018-06-05T10:36:11.030Z</updated>
     
@@ -94,27 +94,27 @@
     
     </summary>
     
-      <category term="其他" scheme="http://www.aiweifeng.com/categories/%E5%85%B6%E4%BB%96/"/>
+      <category term="其他" scheme="https://aiweifeng.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-      <category term="比特币" scheme="http://www.aiweifeng.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https://aiweifeng.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
-      <category term="区块链教程" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B/"/>
+      <category term="区块链教程" scheme="https://aiweifeng.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%95%99%E7%A8%8B/"/>
     
-      <category term="区块链学习" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AD%A6%E4%B9%A0/"/>
+      <category term="区块链学习" scheme="https://aiweifeng.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="区块链资源" scheme="http://www.aiweifeng.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%B5%84%E6%BA%90/"/>
+      <category term="区块链资源" scheme="https://aiweifeng.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
   <entry>
     <title>solidity实现最简单的代币token</title>
-    <link href="http://www.aiweifeng.com/2017/10/10/%E5%AE%9E%E7%8E%B0%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E4%BB%A3%E5%B8%81token/"/>
-    <id>http://www.aiweifeng.com/2017/10/10/实现最简单的代币token/</id>
+    <link href="https://aiweifeng.github.io/2017/10/10/%E5%AE%9E%E7%8E%B0%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E4%BB%A3%E5%B8%81token/"/>
+    <id>https://aiweifeng.github.io/2017/10/10/实现最简单的代币token/</id>
     <published>2017-10-09T18:14:10.000Z</published>
-    <updated>2018-07-12T06:56:51.528Z</updated>
+    <updated>2018-07-12T07:11:32.141Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="remix"><a href="#remix" class="headerlink" title="remix"></a>remix</h1><p>IDE地址：<a href="http://remix.ethereum.org" target="_blank" rel="noopener">http://remix.ethereum.org</a></p><h1 id="第一个简单合约"><a href="#第一个简单合约" class="headerlink" title="第一个简单合约"></a>第一个简单合约</h1><p>在remix新建文件SimpleToken.sol</p><pre><code>pragma solidity ^0.4.20;contract SimpleToken{    //记录账本    mapping(address =&gt; uint256)public balanceOf;    //构造方法，将全部发行量给第一个账本    constructor(uint256 initialSupply){        balanceOf[msg.sender] = initialSupply;    }    //交易函数    function transfer(address _to,uint256 _value)public{        //检验余额是否够本次交易        require(balanceOf[msg.sender] &gt;= _value);        //检验目标账本是否会溢出        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);        balanceOf[msg.sender] -= _value;        balanceOf[_to] += _value;    }}</code></pre><h1 id="以太坊ERC20简单合约"><a href="#以太坊ERC20简单合约" class="headerlink" title="以太坊ERC20简单合约"></a>以太坊ERC20简单合约</h1><p>在remix新建文件erc20interface.sol接口协议文件</p><pre><code>pragma solidity ^0.4.20;contract ERC20interface{    //function name() constant returns (string name);    //function symbol() constant returns (string symbol);    //function decimals() constant returns (uint8 decimals);    //function totalSupply() constant returns (uint256 totalSupply);    //function balanceOf(address _owner) constant returns (uint256 balance);    //代币名称    string public name;    //代币代码    string public symbol;    //可交易小数位数    uint8 public decimals;    //代币发行量    uint public totalSupply;    function transfer(address _to, uint256 _value) returns (bool success);    function approve(address _spender, uint256 _value) returns (bool success);    function transferFrom(address _from, address _to, uint256 _value) returns (bool success);    function allowance(address _owner, address _spender) constant returns (uint256 remaining);    event Transfer(address indexed _from, address indexed _to, uint256 _value);    event Approval(address indexed _owner, address indexed _spender, uint256 _value);  }</code></pre><p>在remix新建文件ERC20Token.sol实现上面的erc20接口</p><pre><code>pragma solidity ^0.4.20;import &quot;./erc20interface.sol&quot;;contract ERC20Token is ERC20interface{    mapping(address =&gt; uint256)public balanceOf;    mapping(address =&gt; mapping(address =&gt; uint256)) allowed;    constructor(string _name) public {        name = _name; //&quot;HXDChain&quot;;        symbol = &quot;HXD&quot;;        decimals = 0;        totalSupply = 10000;    }    function transfer(address _to, uint256 _value) returns (bool success){        require(_to != address(0));        require(balanceOf[msg.sender] &gt;= _value);        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);        balanceOf[msg.sender] -= _value;        balanceOf[_to] += _value;        emit Transfer(msg.sender,_to,_value);        return true;    }    function approve(address _spender, uint256 _value) returns (bool success){        allowed[msg.sender][_spender] = _value;        emit Approval(msg.sender,_spender,_value);        return true;    }    function transferFrom(address _from, address _to, uint256 _value) returns (bool success){        require(_to != address(0));        require(allowed[_from][msg.sender] &gt;= _value);        require(balanceOf[_from] &gt;= _value);        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);        balanceOf[_from] -= _value;        balanceOf[_to] += _value;        allowed[_from][msg.sender] -= _value;        emit Transfer(msg.sender,_to,_value);        return true;    }    function allowance(address _owner, address _spender) constant returns (uint256 remaining){        return allowed[_owner][_spender];    }}</code></pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="remix"><a href="#remix" class="headerlink" title="remix"></a>remix</h1><p>IDE地址：<a href="http://remix.ethereum.org" target="_blank" rel="noopener">http://remix.ethereum.org</a></p><h1 id="第一个简单合约"><a href="#第一个简单合约" class="headerlink" title="第一个简单合约"></a>第一个简单合约</h1><p>在remix新建文件SimpleToken.sol</p><pre><code>pragma solidity ^0.4.20;contract SimpleToken{    //记录账本    mapping(address =&gt; uint256)public balanceOf;    //构造方法，将全部发行量给第一个账本    constructor(uint256 initialSupply){        balanceOf[msg.sender] = initialSupply;    }    //交易函数    function transfer(address _to,uint256 _value)public{        //检验余额是否够本次交易        require(balanceOf[msg.sender] &gt;= _value);        //检验目标账本是否会溢出        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);        balanceOf[msg.sender] -= _value;        balanceOf[_to] += _value;    }}</code></pre><h1 id="以太坊ERC20简单合约"><a href="#以太坊ERC20简单合约" class="headerlink" title="以太坊ERC20简单合约"></a>以太坊ERC20简单合约</h1><p>在remix新建文件erc20interface.sol接口协议文件</p><pre><code>pragma solidity ^0.4.20;contract ERC20interface{    //function name() constant returns (string name);    //function symbol() constant returns (string symbol);    //function decimals() constant returns (uint8 decimals);    //function totalSupply() constant returns (uint256 totalSupply);    //function balanceOf(address _owner) constant returns (uint256 balance);    //代币名称    string public name;    //代币代码    string public symbol;    //可交易小数位数    uint8 public decimals;    //代币发行量    uint public totalSupply;    function transfer(address _to, uint256 _value) returns (bool success);    function approve(address _spender, uint256 _value) returns (bool success);    function transferFrom(address _from, address _to, uint256 _value) returns (bool success);    function allowance(address _owner, address _spender) constant returns (uint256 remaining);    event Transfer(address indexed _from, address indexed _to, uint256 _value);    event Approval(address indexed _owner, address indexed _spender, uint256 _value);  }</code></pre><p>在remix新建文件ERC20Token.sol实现上面的erc20接口</p><pre><code>pragma solidity ^0.4.20;import &quot;./erc20interface.sol&quot;;contract ERC20Token is ERC20interface{    mapping(address =&gt; uint256)public balanceOf;    mapping(address =&gt; mapping(address =&gt; uint256)) allowed;    constructor(string _name) public {        name = _name; //&quot;HXDChain&quot;;        symbol = &quot;HXD&quot;;        decimals = 0;        totalSupply = 10000;        balanceOf[msg.sender] = totalSupply;    }    function transfer(address _to, uint256 _value) returns (bool success){        require(_to != address(0));        require(balanceOf[msg.sender] &gt;= _value);        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);        balanceOf[msg.sender] -= _value;        balanceOf[_to] += _value;        emit Transfer(msg.sender,_to,_value);        return true;    }    function approve(address _spender, uint256 _value) returns (bool success){        allowed[msg.sender][_spender] = _value;        emit Approval(msg.sender,_spender,_value);        return true;    }    function transferFrom(address _from, address _to, uint256 _value) returns (bool success){        require(_to != address(0));        require(allowed[_from][msg.sender] &gt;= _value);        require(balanceOf[_from] &gt;= _value);        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);        balanceOf[_from] -= _value;        balanceOf[_to] += _value;        allowed[_from][msg.sender] -= _value;        emit Transfer(msg.sender,_to,_value);        return true;    }    function allowance(address _owner, address _spender) constant returns (uint256 remaining){        return allowed[_owner][_spender];    }}</code></pre>]]></content>
     
     <summary type="html">
     
@@ -122,18 +122,18 @@
     
     </summary>
     
-      <category term="以太坊" scheme="http://www.aiweifeng.com/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
+      <category term="以太坊" scheme="https://aiweifeng.github.io/categories/%E4%BB%A5%E5%A4%AA%E5%9D%8A/"/>
     
     
-      <category term="remix" scheme="http://www.aiweifeng.com/tags/remix/"/>
+      <category term="remix" scheme="https://aiweifeng.github.io/tags/remix/"/>
     
-      <category term="token" scheme="http://www.aiweifeng.com/tags/token/"/>
+      <category term="token" scheme="https://aiweifeng.github.io/tags/token/"/>
     
-      <category term="代币发行" scheme="http://www.aiweifeng.com/tags/%E4%BB%A3%E5%B8%81%E5%8F%91%E8%A1%8C/"/>
+      <category term="代币发行" scheme="https://aiweifeng.github.io/tags/%E4%BB%A3%E5%B8%81%E5%8F%91%E8%A1%8C/"/>
     
-      <category term="智能合约" scheme="http://www.aiweifeng.com/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/"/>
+      <category term="智能合约" scheme="https://aiweifeng.github.io/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/"/>
     
-      <category term="solidity" scheme="http://www.aiweifeng.com/tags/solidity/"/>
+      <category term="solidity" scheme="https://aiweifeng.github.io/tags/solidity/"/>
     
   </entry>
   
