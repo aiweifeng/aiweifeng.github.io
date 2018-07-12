@@ -120,7 +120,7 @@
 <meta property="og:site_name" content="爱微风|区块链">
 <meta property="og:description" content="你的第一个智能合约，最简单的代币发行。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-07-12T03:29:39.732Z">
+<meta property="og:updated_time" content="2018-07-12T06:56:51.528Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="solidity实现最简单的代币token">
 <meta name="twitter:description" content="你的第一个智能合约，最简单的代币发行。">
@@ -366,7 +366,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-12 11:29:39" itemprop="dateModified" datetime="2018-07-12T11:29:39+08:00">2018-07-12</time>
+                <time title="修改时间：2018-07-12 14:56:51" itemprop="dateModified" datetime="2018-07-12T14:56:51+08:00">2018-07-12</time>
               
             
           </span>
@@ -420,27 +420,102 @@
 
       
         <h1 id="remix"><a href="#remix" class="headerlink" title="remix"></a>remix</h1><p>IDE地址：<a href="http://remix.ethereum.org" target="_blank" rel="noopener">http://remix.ethereum.org</a></p>
-<h1 id="第一个合约"><a href="#第一个合约" class="headerlink" title="第一个合约"></a>第一个合约</h1><pre><code>pragma solidity ^0.4.20;
+<h1 id="第一个简单合约"><a href="#第一个简单合约" class="headerlink" title="第一个简单合约"></a>第一个简单合约</h1><p>在remix新建文件SimpleToken.sol</p>
+<pre><code>pragma solidity ^0.4.20;
 
 contract SimpleToken{
-//记录账本
-mapping(address =&gt; uint256)public balanceOf;
-//构造方法，将全部发行量给第一个账本
-constructor(uint256 initialSupply){
-    balanceOf[msg.sender] = initialSupply;
-}
-//交易函数
-function transfer(address _to,uint256 _value)public{
-    //检验余额是否够本次交易
-    require(balanceOf[msg.sender] &gt;= _value);
-    //检验目标账本是否会溢出
-    require(balanceOf[_to] + _value &gt;= balanceOf[_to]);
+    //记录账本
+    mapping(address =&gt; uint256)public balanceOf;
+    //构造方法，将全部发行量给第一个账本
+    constructor(uint256 initialSupply){
+        balanceOf[msg.sender] = initialSupply;
+    }
+    //交易函数
+    function transfer(address _to,uint256 _value)public{
+        //检验余额是否够本次交易
+        require(balanceOf[msg.sender] &gt;= _value);
+        //检验目标账本是否会溢出
+        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);
 
-    balanceOf[msg.sender] -= _value;
-    balanceOf[_to] += _value;
+        balanceOf[msg.sender] -= _value;
+        balanceOf[_to] += _value;
+    }
 }
-</code></pre><p>}</p>
+</code></pre><h1 id="以太坊ERC20简单合约"><a href="#以太坊ERC20简单合约" class="headerlink" title="以太坊ERC20简单合约"></a>以太坊ERC20简单合约</h1><p>在remix新建文件erc20interface.sol接口协议文件</p>
+<pre><code>pragma solidity ^0.4.20;
 
+contract ERC20interface{
+    //function name() constant returns (string name);
+    //function symbol() constant returns (string symbol);
+    //function decimals() constant returns (uint8 decimals);
+    //function totalSupply() constant returns (uint256 totalSupply);
+    //function balanceOf(address _owner) constant returns (uint256 balance);
+    //代币名称
+    string public name;
+    //代币代码
+    string public symbol;
+    //可交易小数位数
+    uint8 public decimals;
+    //代币发行量
+    uint public totalSupply;
+
+    function transfer(address _to, uint256 _value) returns (bool success);
+    function approve(address _spender, uint256 _value) returns (bool success);
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success);
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining);
+
+    event Transfer(address indexed _from, address indexed _to, uint256 _value);
+    event Approval(address indexed _owner, address indexed _spender, uint256 _value);  
+}
+</code></pre><p>在remix新建文件ERC20Token.sol实现上面的erc20接口</p>
+<pre><code>pragma solidity ^0.4.20;
+
+import &quot;./erc20interface.sol&quot;;
+
+contract ERC20Token is ERC20interface{
+    mapping(address =&gt; uint256)public balanceOf;
+    mapping(address =&gt; mapping(address =&gt; uint256)) allowed;
+    constructor(string _name) public {
+        name = _name; //&quot;HXDChain&quot;;
+        symbol = &quot;HXD&quot;;
+        decimals = 0;
+        totalSupply = 10000;
+    }
+
+
+    function transfer(address _to, uint256 _value) returns (bool success){
+        require(_to != address(0));
+        require(balanceOf[msg.sender] &gt;= _value);
+        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);
+
+        balanceOf[msg.sender] -= _value;
+        balanceOf[_to] += _value;
+        emit Transfer(msg.sender,_to,_value);
+        return true;
+    }
+    function approve(address _spender, uint256 _value) returns (bool success){
+        allowed[msg.sender][_spender] = _value;
+        emit Approval(msg.sender,_spender,_value);
+        return true;
+    }
+    function transferFrom(address _from, address _to, uint256 _value) returns (bool success){
+        require(_to != address(0));
+        require(allowed[_from][msg.sender] &gt;= _value);
+        require(balanceOf[_from] &gt;= _value);
+        require(balanceOf[_to] + _value &gt;= balanceOf[_to]);
+
+        balanceOf[_from] -= _value;
+        balanceOf[_to] += _value;
+        allowed[_from][msg.sender] -= _value;
+
+        emit Transfer(msg.sender,_to,_value);
+        return true;
+    }
+    function allowance(address _owner, address _spender) constant returns (uint256 remaining){
+        return allowed[_owner][_spender];
+    }
+}
+</code></pre>
       
     </div>
 
@@ -813,7 +888,7 @@ function transfer(address _to,uint256 _value)public{
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#remix"><span class="nav-number">1.</span> <span class="nav-text">remix</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第一个合约"><span class="nav-number">2.</span> <span class="nav-text">第一个合约</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#remix"><span class="nav-number">1.</span> <span class="nav-text">remix</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第一个简单合约"><span class="nav-number">2.</span> <span class="nav-text">第一个简单合约</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#以太坊ERC20简单合约"><span class="nav-number">3.</span> <span class="nav-text">以太坊ERC20简单合约</span></a></li></ol></div>
             
 
           </div>
